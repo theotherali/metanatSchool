@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Estedad Thin";
+    src: url("../public/fonts/Estedad/woff2/Estedad-Thin.woff2") format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Estedad Light";
+    src: local("Estedad Light"),
+      url("../public/fonts/Estedad/woff2/Estedad-Light.woff2") format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Estedad Medium";
+    src: local("Estedad Medium"),
+      url("../public/fonts/Estedad/woff2/Estedad-Medium.woff2") format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Estedad Bold";
+    src: local("Estedad Bold"),
+      url("../public/fonts/Estedad/woff2/Estedad-Bold.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Mikhak-woff2-1";
+    src: url("../public/fonts/Mikhak/woff2/Mikhak-VF-FD.woff2") format("woff2");
+    font-display: swap;
+  }
+}
+
+@layer components {
+  .overlay {
+    @apply md:hidden invisible opacity-0 fixed inset-0 w-full h-full bg-black/40 z-10 transition-all;
+  }
+
+  .overlay--visible {
+    @apply visible opacity-100;
+  }
+
+  .circle {
+    @apply flex items-center justify-center border rounded-full;
+  }
+
+  .circle--main {
+    @apply absolute bottom-0 right-0 left-0 mx-auto translate-y-1/2 hidden md:flex;
+  }
+
+  .circle--lg {
+    @apply w-[203px] h-[203px] border-white/25;
+  }
+
+  .circle--md {
+    @apply w-[145px] h-[145px] border-white/20;
+  }
+
+  .circle--sm {
+    @apply w-[95px] h-[95px] border-white/80;
+  }
+
+  /* .aboutImg::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 575px;
+    background: #1d42d9;
+    top: -50px;
+    border-top-right-radius: 70px;
+    left: -50px;
+  } */
+
+  .chevronWrraper {
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 6px;
+    height: 300px;
+    width: 90%;
+  }
+  .chevronWrraperLeft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50.1%;
+    background: #3772ff;
+    transform: skew(0deg, 6deg);
+  }
+  .chevronWrraperRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50.1%;
+    background: #3772ff;
+    transform: skew(0deg, -6deg);
+  }
+  .hexagon {
+    width: 650px;
+    height: 310px;
+    background: #3772ff;
+    position: relative;
+    margin-top: 100px;
+  }
+  .hexagon::before {
+    content: "";
+    position: absolute;
+    top: -182px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 325px solid transparent;
+    border-right: 325px solid transparent;
+    border-bottom: 180px solid #3772ff;
+  }
+  .hexagon::after {
+    content: "";
+    position: absolute;
+    bottom: -182px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 325px solid transparent;
+    border-right: 325px solid transparent;
+    border-top: 180px solid #3772ff;
+  }
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  .ltr-text {
+    direction: ltr;
+    text-align: left;
+  }
+
+
+}
+
+
+/* 
+#hexagon {
+  width: 100px;
+  height: 57.735px;
+  background: red;
+  position: relative;
+}
+#hexagon::before {
+  content: "";
+  position: absolute;
+  top: -28.8675px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 28.8675px solid red;
+}
+#hexagon::after {
+  content: "";
+  position: absolute;
+  bottom: -28.8675px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 28.8675px solid red;
+}
+ */
+ 
+
+ /*
+    #cut-diamond {
+      border-style: solid;
+      border-color: transparent transparent red transparent;
+      border-width: 0 25px 25px 25px;
+      height: 0;
+      width: 50px;
+      box-sizing: content-box;
+      position: relative;
+      margin: 20px 0 50px 0;
+    }
+    #cut-diamond:after {
+      content: "";
+      position: absolute;
+      top: 25px;
+      left: -25px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: red transparent transparent transparent;
+      border-width: 70px 50px 0 50px;
+    }
+  */
+
+
+  /* 
+  
+    #chevron {
+      position: relative;
+      text-align: center;
+      padding: 12px;
+      margin-bottom: 6px;
+      height: 60px;
+      width: 200px;
+    }
+    #chevron:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 51%;
+      background: red;
+      transform: skew(0deg, 6deg);
+    }
+    #chevron:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 50%;
+      background: red;
+      transform: skew(0deg, -6deg);
+    }
+   */
