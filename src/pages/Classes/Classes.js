@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
 
-
 function Classes() {
   let sliderRef = useRef(null);
   const play = () => {
@@ -12,7 +11,7 @@ function Classes() {
   };
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -21,20 +20,48 @@ function Classes() {
   };
 
   return (
-    <div className="slider-container">
-      <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
+    <>
+      <div className="bg">
         <div>
-          <div>
-            <img src="" alt="" />
-          </div>
+          <h3>کلاس های ویژه ی ما</h3>
+          <span>
+            دیگر برنامه های آموزشی ویژه ی مدرسه ی مونته سوری متانت شامل :
+          </span>
         </div>
-        <div>slide</div>
-        <div>slide</div>
-        <div>slide</div>
-        <div>slide</div>
-        <div>slide</div>
-      </Slider>
-      {/* <div style={{ textAlign: "center" }}>
+        <div className="slider-container">
+          <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
+            <div>
+              <div>
+                <img src="images/Azmoon.jpg" alt="" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src="images/falsafe2.jpg" alt="" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src="images/honareTajasomi2.jpg" alt="" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src="images/moshavere.jpg" alt="" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src="images/varzesh.jpg" alt="" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src="images/zabanEnglish.webp" alt="" />
+              </div>
+            </div>
+          </Slider>
+          {/* <div style={{ textAlign: "center" }}>
         <button className="button" onClick={play}>
           Play
         </button>
@@ -42,7 +69,9 @@ function Classes() {
           Pause
         </button>
       </div> */}
-    </div>
+        </div>
+      </div>
+    </>
   );
 }
 export default Classes;
