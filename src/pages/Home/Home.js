@@ -166,7 +166,7 @@ function Home() {
         </div>
       </div>
       {/* About Us */}
-      <div className="container">
+      <div className="container mb-12">
         <div className="flex flex-col lg:flex-row">
           <div className="relative flex-center my-16 lg:w-full">
             <div className="absolute w-full lg:w-[120%] h-[130%] sm:h-[122%] md:h-[118%] lg:h-[120%] xl:h-[105%] bg-pink-400 z-0 -top-14 lg:-top-12 xl:-top-4 -right-16 xs:-right-24 md:-right-36 rounded-tl-[70px]"></div>
