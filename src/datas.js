@@ -1,11 +1,11 @@
 let sliderImg = [
   {
     id: 1,
-    src: "images/home-bg.png",
+    src: "images/montessori_4.jpge",
   },
   {
     id: 2,
-    src: "images/home-bg2.jpg",
+    src: "images/montessori_7.jpg",
   },
 ];
 export { sliderImg };

@@ -1,6 +1,8 @@
 import React from "react";
 import SlickSlider from "../../components/slider/SlickSlider";
 import Classes from "../Classes/Classes";
+import Teachers from "../Teachers/Teachers";
+import ContactUs from "../ContactUs/ContactUs"
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -275,6 +277,14 @@ function Home() {
 
       {/* Classes */}
       <Classes />
+
+
+      {/* Teachers */}
+      <Teachers/>
+
+
+      {/* Contact Us */}
+      <ContactUs/>
 
 
 
