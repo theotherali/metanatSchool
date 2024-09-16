@@ -1,4 +1,5 @@
 import React from "react";
+import { contactUsImage } from "../../datas";
 
 function ContactUs() {
   return (
@@ -48,11 +49,11 @@ function ContactUs() {
               </button>
             </div>
           </form>
-          <div className="w-3/5">
+          <div className="w-3/5 bg-[url('images/ContactUs.jpg')]">
             <p>نظرات ارزشمند شما</p>
             <div className="flex-center">
               <img
-                src="images/ContactUs.jpg"
+                src={contactUsImage}
                 className="w-[60%]"
                 alt="contactUsImage"
               />

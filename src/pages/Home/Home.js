@@ -83,7 +83,7 @@ function Home() {
               component="img"
               alt="courses images"
               height="140"
-              image="images/pic-1.jpg"
+              image="images/Course_1.jpg"
               className="rounded-tl-2xl"
             />
             <CardContent>
@@ -115,7 +115,7 @@ function Home() {
               component="img"
               alt="courses images"
               height="140"
-              image="images/pic-1.jpg"
+              image="images/Course_2.jpg"
               className="rounded-tl-2xl"
             />
             <CardContent>
@@ -147,7 +147,7 @@ function Home() {
               component="img"
               alt="courses images"
               height="140"
-              image="images/pic-1.jpg"
+              image="images/Course_3.jpeg"
               className="rounded-tl-2xl"
             />
             <CardContent>

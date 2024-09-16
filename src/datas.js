@@ -1,11 +1,14 @@
 let sliderImg = [
   {
     id: 1,
-    src: "images/montessori_4.jpge",
+    src: "images/BgHeader_1.jpg",
   },
   {
     id: 2,
-    src: "images/montessori_7.jpg",
+    src: "images/BgHeader_2.jpg",
   },
 ];
-export { sliderImg };
+
+let contactUsImage = "images/ContactUs.jpg"
+
+export { sliderImg, contactUsImage };
