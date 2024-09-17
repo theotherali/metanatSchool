@@ -5,7 +5,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function SlickSlider() {
+function SlickSliderHome() {
   const [sliderImages, SetSliderImages] = useState(sliderImg);
 
   var settings = {
@@ -65,4 +65,4 @@ function SlickSlider() {
   );
 }
 
-export default SlickSlider;
+export default SlickSliderHome;
