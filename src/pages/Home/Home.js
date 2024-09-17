@@ -3,6 +3,7 @@ import SlickSlider from "../../components/slider/SlickSlider";
 import Classes from "../Classes/Classes";
 import Teachers from "../Teachers/Teachers";
 import ContactUs from "../ContactUs/ContactUs"
+import Footer from "../../components/footer/Footer";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -50,7 +51,7 @@ function Home() {
             </div>
             <p className="text-lg sm:text-2xl">آدرس</p>
             <span className="text-sm sm:text-lg tracking-tighter text-zinc-600">
-              ایران - استان اراک - خیابان عضد - کوچه عضد ۱
+             مرکزی - اراک - خیابان شهید بهشتی - کوچه عضد ۱
             </span>
           </div>
         </div>
@@ -287,6 +288,8 @@ function Home() {
       <ContactUs/>
 
 
+      {/* Footer */}
+      <Footer/>
 
 
     </>
