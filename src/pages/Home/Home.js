@@ -1,6 +1,5 @@
 import React from "react";
 import SlickSliderHome from "../../components/slider/SlickSliderHome";
-import SlickSlider from "../../components/slider/SlickSlider";
 import Courses from "../Courses/Courses";
 import AboutUs from "../AboutUs/AboutUs";
 // import CountDown from "../../future/countDown/CountDown";
@@ -19,7 +18,6 @@ function Home() {
   return (
     <>
       <SlickSliderHome />
-      <SlickSlider />
       {/* Description card */}
       <div className="container">
         <div className="flex flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap child:shadow-md child:sm:w-[263px] md:child:w-[326px] lg:child:w-[297px] xl:child:w-96 2xl:child:w-[467px] items-center child:w-full child:px-6 gap-4 child:bg-cyan-600/30 text-center my-5 md:mt-20">

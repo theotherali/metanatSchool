@@ -5,7 +5,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function SlickSliderHome() {
+function SlickSlider() {
   const [sliderImages, SetSliderImages] = useState(sliderImg);
 
   var settings = {
@@ -24,14 +24,14 @@ function SlickSliderHome() {
           <img
             src={img.src}
             alt="picHesder"
-            className="h-60 xs:h-[400px] md:h-[750px] object-cover w-full"
+            className="h-60 xs:h-[400px] md:h-[500px] object-cover w-full"
           />
           <div className="flex-center absolute top-8 xs:top-16 md:top-[40%] w-full">
             <div className="font-MikhakWoff2one w-4/5 text-center text-white font-bold">
-              <h2 className="text-xl/relaxed xs:text-2xl/relaxed sm:text-4xl/relaxed lg:text-5xl/tight xl:text-6xl/tight ">
+              <h2 className="text-xl/relaxed xs:text-2xl/relaxed sm:text-4xl/relaxed">
                 مونته‌ سوری، ایجاد شناخت و یادگیری از طریق شناخت درونی است
               </h2>
-              <p className="font-normal xs:text-lg md:text-xl/8 lg:text-2xl/10 mt-8 xs:mt-14 mx-auto w-72 xs:w-80 sm:w-[450px] md:w-[600px] lg:w-[650px]">
+              <p className="font-normal xs:text-lg md:text-xl/8 lg:text-2xl/8 mt-8 xs:mt-4 mx-auto w-72 xs:w-80 sm:w-[450px] md:w-[600px] lg:w-[650px]">
                 یک رویکرد آموزشی است که تمرکز خود را بر روی علایق و فعالیت‌های
                 طبیعی و روزمره کودکان قرار میدهد
               </p>
@@ -65,4 +65,4 @@ function SlickSliderHome() {
   );
 }
 
-export default SlickSliderHome;
+export default SlickSlider;

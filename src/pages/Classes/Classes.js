@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
+import SlickSlider from "../../components/slider/SlickSlider";
 
 function Classes() {
   let sliderRef = useRef(null);
@@ -46,6 +47,7 @@ function Classes() {
 
   return (
     <>
+    <SlickSlider />
       <div className="bg-lightishBlue-600/20 pb-6 pt-8 lg:pt-12 xl:pt-16 mb-24">
         <div className="flex-center space-y-3 lg:space-y-6 flex-col mb-3 xs:mb-8 lg:mb-10">
           <h3 className="text-2xl lg:text-4xl font-MikhakWoff2one font-bold">

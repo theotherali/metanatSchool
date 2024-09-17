@@ -1,10 +1,11 @@
 import React from 'react'
+import SlickSlider from '../../components/slider/SlickSlider'
 
 function Event() {
   return (
-    <div className='bg-white h-screen w-screen'>
-      Event
-    </div>
+    <>
+      <SlickSlider />
+    </>
   )
 }
 
