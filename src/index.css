@@ -154,6 +154,13 @@ code {
     text-align: left;
   }
 
+  .bg-contactUs {
+    background-image: url("../public/images/montessori_17.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
 
 }
 
