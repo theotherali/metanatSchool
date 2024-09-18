@@ -1,11 +1,11 @@
 import React from "react";
 import SlickSliderHome from "../../components/slider/SlickSliderHome";
-import Courses from "../Courses/Courses";
-import AboutUs from "../AboutUs/AboutUs";
+import CoursesComponent from "../../components/courses/CoursesComponent";
+import AboutUsComponent from "../../components/aboutUs/AboutUsComponent";
 // import CountDown from "../../future/countDown/CountDown";
-import Classes from "../Classes/Classes";
-import Teachers from "../Teachers/Teachers";
-import ContactUs from "../ContactUs/ContactUs";
+import ClassesComponent from "../../components/classes/ClassesComponent";
+import TeachersComponent from "../../components/teachers/TeachersComponent";
+import ContactUsComponent from "../../components/contactUs/ContactUsComponent";
 import Footer from "../../components/footer/Footer";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
@@ -54,22 +54,22 @@ function Home() {
       </div>
 
       {/* courses */}
-      <Courses />
+      <CoursesComponent />
 
       {/* About Us */}
-      <AboutUs />
+      <AboutUsComponent />
 
       {/* Countdown */}
       {/* <CountDown/> */}
 
       {/* Classes */}
-      <Classes />
+      <ClassesComponent />
 
       {/* Teachers */}
-      <Teachers />
+      <TeachersComponent />
 
       {/* Contact Us */}
-      <ContactUs />
+      <ContactUsComponent />
 
       {/* Footer */}
       <Footer />
