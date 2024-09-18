@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import SlickSlider from "../../components/slider/SlickSlider";
 import ClassesComponent from "../../components/classes/ClassesComponent";
+import Footer from "../../components/footer/Footer";
 
 function Classes() {
   let sliderRef = useRef(null);
@@ -50,6 +51,7 @@ function Classes() {
     <>
     <SlickSlider />
     <ClassesComponent />
+    <Footer />
     </>
   );
 }

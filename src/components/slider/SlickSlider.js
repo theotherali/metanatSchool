@@ -17,7 +17,7 @@ function SlickSlider() {
   };
 
   return (
-    <Slider className="" {...settings}>
+    <Slider {...settings}>
       {sliderImages.map((img) => (
         <div key={img.id} className="relative">
           <div className="bg-purple-700/50 absolute w-full h-full"></div>
