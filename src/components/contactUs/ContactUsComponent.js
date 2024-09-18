@@ -3,7 +3,7 @@ import React from 'react'
 function ContactUsComponent() {
   return (
     <div className="container">
-    <div className="flex-center text-zinc-700 flex-col my-10">
+    <div className="flex-center text-zinc-700 flex-col mt-10 mb-28">
       <h3 className="mb-3 xs:mb-8 lg:mb-10text-2xl lg:text-4xl font-MikhakWoff2one font-bold">
         در تماس باشیم
       </h3>

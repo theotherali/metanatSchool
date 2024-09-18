@@ -15,7 +15,7 @@ function Topbar() {
 // from-fuchsia-700/80 via-emerald-800/50 to-lightishBlue-600/80
   return (
     <>
-      <header className="fixed top-5 right-0 left-0 z-50 hidden md:flex justify-between items-center w-[98%] lg:w-[95%] h-24 px-10 py-5 mx-auto rounded-4xl bg-gradient-to-tr from-fuchsia-700/80 via-emerald-800/50 to-lightishBlue-600/80 backdrop-blur-[4px]">
+      <header className="fixed hidden md:flex top-5 right-0 left-0 z-50 justify-between items-center w-[98%] lg:w-[95%] h-24 px-10 py-5 mx-auto rounded-4xl bg-gradient-to-tr from-fuchsia-700/80 via-emerald-800/50 to-lightishBlue-600/80 backdrop-blur-[4px]">
         <Link to={"/"} className="flex-center text-amber-400">
           <IoIosSchool className="w-14 h-14" />
           <span className="font-EstedadBold text-4xl">متانت</span>
@@ -45,7 +45,7 @@ function Topbar() {
 
       {/* Mobile Header */}
 
-      <div className="flex md:hidden items-center justify-between h-16 px-4 bg-gradient-to-tr from-lightishBlue-600/70 via-emerald-800/50 to-fuchsia-700/70">
+      <div className="flex md:hidden fixed w-full z-10 items-center justify-between h-16 px-4 bg-gradient-to-tr from-lightishBlue-600 via-emerald-800 to-fuchsia-700">
         <div className="nav-icon">
           <MenuIcon
             onClick={navOpenHandler}

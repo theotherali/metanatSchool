@@ -12,21 +12,28 @@ function SlickSlider() {
     dots: false,
     infinite: true,
     speed: 900,
+    autoplay: true,
+    autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
 
   return (
+    <div className="relative">
     <Slider {...settings}>
       {sliderImages.map((img) => (
-        <div key={img.id} className="relative">
+        <div key={img.id} className="relative mt-16 md:mt-0">
           <div className="bg-purple-700/50 absolute w-full h-full"></div>
           <img
             src={img.src}
             alt="picHesder"
             className="h-60 xs:h-[400px] md:h-[500px] object-cover w-full"
           />
-          <div className="flex-center absolute top-8 xs:top-16 md:top-[40%] w-full">
+
+        </div>
+      ))}
+    </Slider>
+    <div className="flex-center absolute top-8 xs:top-16 md:top-[40%] w-full">
             <div className="font-MikhakWoff2one w-4/5 text-center text-white font-bold">
               <h2 className="text-xl/relaxed xs:text-2xl/relaxed sm:text-4xl/relaxed">
                 مونته‌ سوری، ایجاد شناخت و یادگیری از طریق شناخت درونی است
@@ -49,7 +56,7 @@ function SlickSlider() {
             viewBox="0 0 100 22"
             fill="#ecfeff"
             xmlns="http://www.w3.org/2000/svg"
-            className="absolute bottom-0 right-0 left-0 mx-auto hidden md:inline-block w-[134px] text-cyan-50"
+            className="absolute bottom-[7px] right-0 left-0 mx-auto hidden md:inline-block w-[134px] text-cyan-50"
           >
             <path d="M50 0C69 0 81 22 100 22L0 22C18.75 22 31 0 50 0Z"></path>
           </svg>
@@ -59,9 +66,7 @@ function SlickSlider() {
         >
           <KeyboardArrowDownIcon className="w-5 h-5 text-zinc-700" />
         </div>
-        </div>
-      ))}
-    </Slider>
+    </div>
   );
 }
 

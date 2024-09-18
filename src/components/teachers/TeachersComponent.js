@@ -7,7 +7,7 @@ function TeachersComponent() {
     const settings = {
       dots: false,
       infinite: true,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 2000,
       responsive: [
         {

@@ -56,7 +56,11 @@ function ClassesComponent() {
           </span>
         </div>
         <div className="slider-container">
-          <Slider ref={(slider) => (sliderRef = slider)} {...settings} className="px-2">
+          <Slider
+            ref={(slider) => (sliderRef = slider)}
+            {...settings}
+            className="px-2"
+          >
             <div>
               <div className="relative mx-2 rounded-xl overflow-hidden group">
                 <img
@@ -65,7 +69,9 @@ function ClassesComponent() {
                   alt=""
                 />
                 <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">کارگاه فلسفه برای کودکان</h3>
+                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
+                    کارگاه فلسفه برای کودکان
+                  </h3>
                 </div>
               </div>
             </div>
@@ -77,7 +83,9 @@ function ClassesComponent() {
                   alt=""
                 />
                 <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">هنر های تجسمی حرفه ای</h3>
+                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
+                    هنر های تجسمی حرفه ای
+                  </h3>
                 </div>
               </div>
             </div>
@@ -89,7 +97,9 @@ function ClassesComponent() {
                   alt=""
                 />
                 <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">ورزش حرفه ای فکری و عملی</h3>
+                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
+                    ورزش حرفه ای فکری و عملی
+                  </h3>
                 </div>
               </div>
             </div>
@@ -101,7 +111,9 @@ function ClassesComponent() {
                   alt=""
                 />
                 <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">آموزش زبان انگلیسی</h3>
+                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
+                    آموزش زبان انگلیسی
+                  </h3>
                 </div>
               </div>
             </div>
@@ -113,19 +125,19 @@ function ClassesComponent() {
                   alt=""
                 />
                 <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">آموزش زبان ترکی استانبولی</h3>
+                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
+                    آموزش زبان ترکی استانبولی
+                  </h3>
                 </div>
               </div>
             </div>
             <div>
               <div className="relative mx-2 rounded-xl overflow-hidden group">
-                <img
-                  src="images/Azmoon.jpg"
-                  className="w-full h-full"
-                  alt=""
-                />
+                <img src="images/Azmoon.jpg" className="w-full h-full" alt="" />
                 <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">آزمون های پیشرفت تحصیلی</h3>
+                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
+                    آزمون های پیشرفت تحصیلی
+                  </h3>
                 </div>
               </div>
             </div>

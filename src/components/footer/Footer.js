@@ -10,13 +10,13 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="relative bg-purple-800/60 mt-30">
+    <footer className="relative bg-purple-800/60 mt-10">
       <svg
         id="curve"
         viewBox="0 0 100 22"
         fill="#ecfeff"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute top-0 right-0 left-0 mx-auto hidden md:inline-block w-[134px] rotate-180"
+        className="absolute -top-[1px] right-0 left-0 mx-auto hidden md:inline-block w-[154px] rotate-180"
       >
         <path d="M50 0C69 0 81 22 100 22L0 22C18.75 22 31 0 50 0Z"></path>
       </svg>
