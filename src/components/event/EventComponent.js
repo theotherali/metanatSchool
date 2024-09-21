@@ -2,8 +2,8 @@ import React from 'react'
 
 function EventComponent() {
   return (
-    <div>
-      EventComponent
+    <div className=' h-[410px]'>
+      
     </div>
   )
 }

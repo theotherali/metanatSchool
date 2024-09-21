@@ -20,9 +20,9 @@ function CoursesComponent() {
                 <div className="h-52 rounded-tl-2xl overflow-hidden">
                   <img src="images/Azmoon.jpg" alt="" />
                 </div>
-                <div className="flex-center flex-col mt-3 space-y-2 text-center text-zinc-700">
+                <div className="flex-center flex-col mt-3 space-y-4 text-center text-zinc-700">
                   <h3 className="text-xl font-EstedadBold">آزمون های منسجم</h3>
-                  <span className="pb-4">
+                  <span className="pb-4 line-clamp-2 h-12">
                     برگزاری آزمون های پیشرفت تحصیلی و ارائه کارنامه آزمون
                   </span>
                   <Link className="bg-pink-400 w-full text-white text-center font-bold text-lg font-MikhakWoff2one mb-2 mx-2 py-1.5 rounded-br-2xl hover:bg-cyan-50 hover:text-amber-500 hover:outline outline-1 transition-all">
@@ -34,9 +34,9 @@ function CoursesComponent() {
                 <div className="h-52 rounded-tl-2xl overflow-hidden">
                   <img src="images/Course_1.jpg" alt="" />
                 </div>
-                <div className="flex-center flex-col mt-3 space-y-2 text-center text-zinc-700">
+                <div className="flex-center flex-col mt-3 space-y-4 text-center text-zinc-700">
                   <h3 className="text-xl font-EstedadBold">کلاس های تقویتی</h3>
-                  <span className="pb-4">
+                  <span className="pb-4 line-clamp-2 h-12">
                     کلاس های خصوصی و گروهی , برگزاری دوره های کوتاه مدت آموزشی
                   </span>
                   <Link className="bg-pink-400 w-full text-white text-center font-bold text-lg font-MikhakWoff2one mb-2 mx-2 py-1.5 rounded-br-2xl hover:bg-cyan-50 hover:text-amber-500 hover:outline outline-1 transition-all">
@@ -48,9 +48,9 @@ function CoursesComponent() {
                 <div className="h-52 rounded-tl-2xl overflow-hidden">
                   <img src="images/moshavere.jpg" alt="" />
                 </div>
-                <div className="flex-center flex-col mt-3 space-y-2 text-center text-zinc-700">
+                <div className="flex-center flex-col mt-3 space-y-4 text-center text-zinc-700">
                   <h3 className="text-xl font-EstedadBold">مشاوره و برنامه ریزی تحصیلی</h3>
-                  <span className="pb-4">
+                  <span className="pb-4 line-clamp-2 h-12">
                     حضور مستمر  مشاورین تحصیلی , مذهبی , پزشک , کودک و خانواده
                   </span>
                   <Link className="bg-pink-400 w-full text-white text-center font-bold text-lg font-MikhakWoff2one mb-2 mx-2 py-1.5 rounded-br-2xl hover:bg-cyan-50 hover:text-amber-500 hover:outline outline-1 transition-all">
