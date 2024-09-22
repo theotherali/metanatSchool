@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
+import { classesData } from "../../datas";
 
 function ClassesComponent() {
   let sliderRef = useRef(null);
@@ -61,86 +62,22 @@ function ClassesComponent() {
             {...settings}
             className="px-2"
           >
-            <div>
-              <div className="relative mx-2 rounded-xl overflow-hidden group">
-                <img
-                  src="images/child_falsafe.jpg"
-                  className="w-full h-full"
-                  alt=""
-                />
-                <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
-                    کارگاه فلسفه برای کودکان
-                  </h3>
+            {classesData.map((classes) => (
+              <div key={classes.id}>
+                <div className="relative mx-2 rounded-xl overflow-hidden group">
+                  <img
+                    src={classes.img}
+                    className="w-full h-full"
+                    alt={classes.alt}
+                  />
+                  <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
+                    <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
+                      {classes.desc}
+                    </h3>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <div className="relative mx-2 rounded-xl overflow-hidden group">
-                <img
-                  src="images/honareTajasomi2.jpg"
-                  className="w-full h-full"
-                  alt=""
-                />
-                <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
-                    هنر های تجسمی حرفه ای
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="relative mx-2 rounded-xl overflow-hidden group">
-                <img
-                  src="images/varzesh.jpg"
-                  className="w-full h-full"
-                  alt=""
-                />
-                <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
-                    ورزش حرفه ای فکری و عملی
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="relative mx-2 rounded-xl overflow-hidden group">
-                <img
-                  src="images/zabanEnglishhh.jpg"
-                  className="w-full h-full"
-                  alt=""
-                />
-                <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
-                    آموزش زبان انگلیسی
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="relative mx-2 rounded-xl overflow-hidden group">
-                <img
-                  src="images/zabanTorki.jpg"
-                  className="w-full h-full"
-                  alt=""
-                />
-                <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
-                    آموزش زبان ترکی استانبولی
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="relative mx-2 rounded-xl overflow-hidden group">
-                <img src="images/Azmoon.jpg" className="w-full h-full" alt="" />
-                <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                  <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
-                    آزمون های پیشرفت تحصیلی
-                  </h3>
-                </div>
-              </div>
-            </div>
+            ))}
           </Slider>
         </div>
       </div>

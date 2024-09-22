@@ -21,7 +21,7 @@ function SlickSliderHome() {
   return (
     <div className="relative">
       <Slider className="" {...settings}>
-        {sliderImages.map((img) => (
+        {sliderImages.map(img => (
           <div key={img.id} className="mt-16 relative md:mt-0">
             <div className="bg-purple-700/50 absolute w-full h-full"></div>
             <img
