@@ -50,7 +50,7 @@ code {
 
 @layer components {
   .overlay {
-    @apply md:hidden invisible opacity-0 fixed inset-0 w-full h-full bg-black/40 z-10 transition-all;
+    @apply md:hidden invisible opacity-0 fixed inset-0 w-full h-full bg-black/40 z-20 transition-all backdrop-blur-[4px];
   }
 
   .overlay--visible {
