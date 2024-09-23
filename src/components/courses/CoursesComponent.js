@@ -5,7 +5,7 @@ import { CoursesData } from '../../datas';
 function CoursesComponent() {
     return (
         <>
-          <div className="container my-14 pt-2">
+          <div className="container my-10 md:my-25">
             <div className="flex-center text-center flex-col gap-y-3 lg:gap-y-5 mb-6">
               <p className="text-2xl lg:text-4xl font-MikhakWoff2one font-bold">
                 دوره های منظم ما

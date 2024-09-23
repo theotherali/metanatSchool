@@ -72,6 +72,44 @@ let CoursesData = [
   },
 ]
 
+let EventsData = [
+  {
+    id: 1,
+    img: "images/EventImg.jpg",
+    title: "جشن افتتاحیه",
+    desc: "افتتاح اولین مدرسه ی مونته سوری در استان مرکزی",
+    alt: "EventImg"
+  },
+  {
+    id: 2,
+    img: "images/EventImg_2.jpg",
+    title: "پروتکل های کرونا برای مدارس",
+    desc: "با آموزش درست، می‌توان دانش‌آموزان را تشویق کرد تا با دیگران در مورد چگونگی جلوگیری از پخش ویروس‌ها صحبت کنند و مدافعین پیشگیری و کنترل بیماری در خانه، مدرسه و ...",
+    alt: "EventImg"
+  },
+  {
+    id: 3,
+    img: "images/EventImg_3.jpg",
+    title: "جشن رنگ‌ها",
+    desc: "جشنواره رنگ بازی سبب تخلیه هیجانات روحی کودکانمان است علاوه برآن زمینه ساز رشد خلاقیت و ایده پردازی در آنها می باشد وسبب شناخت رنگها است.",
+    alt: "EventImg"
+  },
+  {
+    id: 4,
+    img: "images/EventImg_4.jpg",
+    title: "روز معلم سال 1403",
+    desc: "روز معلم در ایران هر ساله در تاریخ ۱۲ اردیبهشت ماه جشن گرفته می‌شود و به منظور تجلیل و قدردانی از معلمان و تعلیم و تربیت نسل‌ها اختصاص یافته است ...",
+    alt: "EventImg"
+  },
+  {
+    id: 5,
+    img: "images/EventImg_5.jpg",
+    title: "روز دختر 1403",
+    desc: "روز دختر در ایران به مناسبت تولد حضرت فاطمه معصومه (س) و به عنوان روز دختر نام‌گذاری شده است. این روز عزیز به منظور تکریم و تقدیر از جایگاه ...",
+    alt: "EventImg"
+  },
+ 
+]
 let TeachersData = [
   {
     id: 1,
@@ -117,4 +155,4 @@ let TeachersData = [
   },
 ]
 
-export { sliderImg, classesData, CoursesData, TeachersData };
+export { sliderImg, classesData, CoursesData, EventsData, TeachersData };
