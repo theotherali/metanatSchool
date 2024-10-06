@@ -35,7 +35,7 @@ function SlickSliderHome() {
 
       <div className="flex-center absolute top-8 xs:top-16 md:top-[40%] w-full">
         <div className="font-MikhakWoff2one w-4/5 text-center text-white font-bold">
-          <h2 className="text-xl/relaxed xs:text-2xl/relaxed sm:text-4xl/relaxed lg:text-5xl/tight xl:text-6xl/tight ">
+          <h2 className="mt-12 md:mt-0 text-xl/relaxed xs:text-2xl/relaxed sm:text-4xl/relaxed lg:text-5xl/tight">
             مونته‌ سوری، ایجاد شناخت و یادگیری از طریق شناخت درونی است
           </h2>
           <p className="font-normal xs:text-lg md:text-xl/8 lg:text-2xl/10 mt-8 xs:mt-14 mx-auto w-72 xs:w-80 sm:w-[450px] md:w-[600px] lg:w-[650px]">

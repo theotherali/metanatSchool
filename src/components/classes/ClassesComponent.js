@@ -70,8 +70,8 @@ function ClassesComponent() {
                     className="w-full h-full"
                     alt={classes.alt}
                   />
-                  <div className="w-full h-full absolute flex-center top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
-                    <h3 className="font-MikhakWoff2one text-2xl font-bold mt-60">
+                  <div className="w-full h-full flex justify-center items-end absolute top-[350px] group-hover:top-0  transition-all duration-300 text-white bg-gradient-to-t from-purple-700/70 to-purple-700/0">
+                    <h3 className="font-MikhakWoff2one text-xl font-bold mb-5 text-center">
                       {classes.desc}
                     </h3>
                   </div>
