@@ -4,8 +4,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      "colors": {
-        "lightishBlue": {
+      colors: {
+        lightishBlue: {
           50: "#EBF1FF",
           100: "#D6E2FF",
           200: "#ADC6FF",
@@ -16,7 +16,7 @@ module.exports = {
           700: "#0037B8",
           800: "#00257A",
           900: "#00123D",
-          950: "#00091F"
+          950: "#00091F",
         },
       },
       boxShadow: {
@@ -59,6 +59,12 @@ module.exports = {
       "2xl": "1536px",
     },
   },
+  purge: [
+    "./public/**/*.html",
+    "./src/**/*.js",
+    "./src/**/*.jsx",
+    "./src/**/*.tsx",
+  ],
   plugins: [
     function ({ addVariant }) {
       addVariant("child", "& > *");
