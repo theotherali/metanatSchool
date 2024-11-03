@@ -10,6 +10,7 @@ function TeachersComponent() {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    slidesToShow: 4,
     responsive: [
       {
         breakpoint: 1536,

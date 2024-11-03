@@ -134,13 +134,13 @@ function Footer() {
                   @metanat_school
                   <TelegramIcon fontSize="large" />
                 </Link>
-                <Link
-                  to={"/"}
+                <a
+                  href={''}
                   className="flex-center gap-x-2 flex-grow h-12 border border-amber-200 text-amber-200 rounded-xl"
                 >
-                  @metanat_school
+                  @metanat5353
                   <InstagramIcon fontSize="large" />
-                </Link>
+                </a>
               </div>
             </div>
           </div>
