@@ -19,7 +19,7 @@ function CoursesComponent() {
             <div className="flex flex-col md:flex-row flex-wrap items-center justify-center gap-5 2xl:gap-14">
 
               {CoursesData.map(courses => (
-                <div key={courses.id} className="flex flex-col max-w-[340px] h-[410px] bg-cyan-600/60 p-5 rounded-tl-4xl rounded-br-4xl">
+                <div key={courses.id} className="flex flex-col max-w-[340px] h-[410px] bg-purple-300/70 p-5 rounded-tl-4xl rounded-br-4xl">
                 <div className="h-52 rounded-tl-2xl overflow-hidden">
                   <img src={courses.img} alt={courses.alt} />
                 </div>

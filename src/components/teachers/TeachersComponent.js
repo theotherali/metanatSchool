@@ -72,7 +72,7 @@ function TeachersComponent() {
                     alt={teacher.alt}
                   />
                   <div className="w-full h-full absolute flex-center flex-col top-[350px] group-hover:top-0 transition-all duration-300 bg-gradient-to-t from-cyan-50 via-cyan-50/20 to-white/0">
-                    <p className="font-MikhakWoff2one text-2xl font-bold mt-60">
+                    <p className="font-MikhakWoff2one text-2xl font-bold mt-60 xs:mt-40">
                       {teacher.name}
                     </p>
                     <span>{teacher.job}</span>

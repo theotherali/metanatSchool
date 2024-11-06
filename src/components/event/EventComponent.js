@@ -16,7 +16,7 @@ function EventComponent() {
       <div className="flex flex-col md:flex-row flex-wrap items-center justify-center gap-5 2xl:gap-14">
 
         {EventsData.map(event => (
-          <div key={event.id} className="flex flex-col max-w-[340px]  bg-cyan-600/60 p-5 rounded-tl-4xl rounded-br-4xl">
+          <div key={event.id} className="flex flex-col max-w-[340px] bg-purple-300/70 p-5 rounded-tl-4xl rounded-br-4xl">
           <div className="h-40 rounded-tl-2xl overflow-hidden">
             <img src={event.img} alt={event.alt} className='w-full'/>
           </div>

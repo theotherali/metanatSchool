@@ -20,7 +20,7 @@ function Topbar() {
           <span className="font-EstedadBold text-4xl">متانت</span>
         </Link>
 
-        <ul className="flex font-MikhakWoff2one items-center gap-x-6 lg:gap-x-12 text-[19px] text-white shadow-black child:tracking-wide child-hover:[text-shadow:0px_1px_6px_var(--tw-shadow-color)] child-hover:text-amber-200 child-hover:font-bold child:transition-all">
+        <ul className="flex font-MikhakWoff2one items-center gap-x-6 lg:gap-x-12 text-[19px] text-white shadow-black child:tracking-wide child-hover:[text-shadow:0px_1px_6px_var(--tw-shadow-color)] child-hover:text-emerald-300 child-hover:font-bold child:transition-all">
           <li className="flex items-center justify-start">
             <Link to={"/"}>خانه</Link>
           </li>
@@ -84,7 +84,7 @@ function Topbar() {
             </Link>
           </div>
 
-          <ul className="child-hover:text-amber-200 child:transition-all child:pr-2.5 text-xl space-y-8 text-white">
+          <ul className="child-hover:text-emerald-200 child:transition-all child:pr-2.5 text-xl space-y-8 text-white">
             <li className="flex items-center justify-start">
               <Link
                 onClick={navOpenHandler}

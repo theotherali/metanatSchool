@@ -21,9 +21,9 @@ function Home() {
       <SlickSliderHome />
       {/* Description card */}
       <div className="container">
-        <div className="flex flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap child:shadow-md child:sm:w-[263px] md:child:w-[326px] lg:child:w-[297px] xl:child:w-96 2xl:child:w-[467px] items-center child:w-full child:px-6 gap-4 child:bg-cyan-600/30 text-center mt-2 mb-14 md:mb-24 md:mt-20">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap child:shadow-md child:sm:w-[263px] md:child:w-[326px] lg:child:w-[297px] xl:child:w-96 2xl:child:w-[467px] items-center child:w-full child:px-6 gap-4 child:bg-purple-300/70 text-center mt-2 mb-14 md:mb-24 md:mt-20">
           <div className="flex-center flex-col grow gap-y-1 sm:gap-y-4 rounded-lg lg:rounded-tr-[80px] h-32 sm:h-60">
-            <div className="flex-center w-16 sm:w-14 h-11 sm:h-14 rounded-tr-2xl rounded-bl-2xl bg-fuchsia-500/90">
+            <div className="flex-center w-16 sm:w-14 h-11 sm:h-14 rounded-tr-2xl rounded-bl-2xl bg-emerald-600/60">
               <AccessTimeIcon fontSize="large" className="text-white" />
             </div>
             <p className="text-lg sm:text-2xl">ساعت کاری</p>
@@ -33,7 +33,7 @@ function Home() {
           </div>
 
           <div className="flex-center flex-col grow gap-y-1 sm:gap-y-4 rounded-lg h-32 sm:h-60">
-            <div className="flex-center w-16 sm:w-14 h-11 sm:h-14 rounded-tr-2xl rounded-bl-2xl bg-fuchsia-500/90">
+            <div className="flex-center w-16 sm:w-14 h-11 sm:h-14 rounded-tr-2xl rounded-bl-2xl bg-emerald-600/60">
               <PhoneIcon fontSize="large" className="text-white" />
             </div>
             <p className="text-lg sm:text-2xl">تلفن</p>
@@ -43,7 +43,7 @@ function Home() {
           </div>
 
           <div className="flex-center flex-col gap-y-1 grow sm:gap-y-4 rounded-lg lg:rounded-tl-[80px] h-32 sm:h-60">
-            <div className="flex-center w-16 sm:w-14 h-11 sm:h-14 rounded-tr-2xl rounded-bl-2xl bg-fuchsia-500/90">
+            <div className="flex-center w-16 sm:w-14 h-11 sm:h-14 rounded-tr-2xl rounded-bl-2xl bg-emerald-600/60">
               <LocationOnIcon fontSize="large" className="text-white" />
             </div>
             <p className="text-lg sm:text-2xl">آدرس</p>
